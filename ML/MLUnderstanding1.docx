@@ -1,0 +1,73 @@
+What is Machine Learning?
+Machine Learning allows the systems to make decisions autonomously without any external support.
+
+These decisions are made when the machine is able to learn from the data and understand the underlying patterns that are contained within it.
+
+Then, through pattern matching and further analysis, they return the outcome which can be a classification or a prediction.
+
+Types of Machine Learning
+
+Supervised Learning - Supervised Learning is the most popular paradigm for performing machine learning operations. It is widely used for data where there is a precise mapping between input-output data.
+
+Unsupervised Learning - In the case of an unsupervised learning algorithm, the data is not explicitly labeled into different classes, that is, there are no labels. The model is able to learn from the data by finding implicit patterns.
+
+Reinforcement Learning - Reinforcement Learning covers more area of Artificial Intelligence. This allows machines to interact with their dynamic environment in order to reach their goals. 
+
+
+Example 
+
+Smart Attendance Predictor Using Machine Learning
+
+This system predicts whether a student is Present or Absent based on simple factors like:
+
+Previous attendance
+
+Class time
+
+Day of the week
+
+Why is this a good invention?
+
+Simple idea
+
+Real-life problem
+
+Uses basic machine learning
+
+Easy to explain to teachers
+
+Problem
+
+Teachers spend time checking attendance.
+Some students often miss classes.
+This invention helps predict attendance early.
+
+Machine Learning Type
+
+Supervised Learning
+Classification
+
+Algorithm Used
+
+Logistic Regression 
+
+Inputs and Output
+
+Inputs:
+
+Attendance last week (Present / Absent)
+
+Day (Weekday / Weekend)
+
+Class time (Morning / Afternoon)
+
+Output:
+
+Prediction: Present or Absent
+
+Example Data
+| Last Week | Day     | Time      | Result  |
+| --------- | ------- | --------- | ------- |
+| Present   | Weekday | Morning   | Present |
+| Absent    | Weekday | Morning   | Absent  |
+| Present   | Weekend | Afternoon | Absent  |
